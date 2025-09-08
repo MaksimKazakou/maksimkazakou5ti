@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #e0ffe0;
+    background-color: #e0fff8;
 }
 
 .menu {
@@ -21,15 +21,15 @@ header {
 .menu-item {
     margin: 0 15px;
     padding: 10px 20px;
-    border: 2px solid #6dbf6d;
-    color: #3a5c3a;
+    border: 2px solid #49bbb5;
+    color: #278883;
     text-align: center;
     transition: color 0.3s, border-color 0.3s;
     border-radius: 5px;
 }
 
 .menu-item:hover {
-    border-color: hwb(130 0% 71%);
+    border-color: hwb(202 2% 43%);
 }
 
 .logo {
@@ -43,7 +43,7 @@ main {
 }
 
 h1 {
-    color: #3a5c3a;
+    color: #278883;
 }
 
 p {
@@ -63,7 +63,7 @@ p {
 }
 
 table, th, td {
-    border: 2px solid #3a5c3a;
+    border: 2px solid #278883;
 }
 
 th, td {
@@ -72,5 +72,5 @@ th, td {
 }
 
 th {
-    background-color: #e0ffe0;
+    background-color: #e0fff8;
 }
