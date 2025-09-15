@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: lightyellow;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    border: 2px solid #000;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.radio-group, .checkbox-group {
+    margin-bottom: 15px;
+}
+
+.radio-group label, .checkbox-group label {
+    margin-right: 10px;
+}
+
+.file-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.reset-btn {
+    background-color: #ff1100;
+}
+
+.reset-btn:hover {
+    background-color: #ff0400;
+}
