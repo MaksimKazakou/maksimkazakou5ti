@@ -1,0 +1,53 @@
+a.link {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+a.link:hover {
+    text-decoration: underline solid;
+    color: #007BFF;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    border: 2px solid #FF6347;
+    border-radius: 20px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.image:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+td.middle:hover {
+    background-color: #26dd63;
+    color: white;
+}
