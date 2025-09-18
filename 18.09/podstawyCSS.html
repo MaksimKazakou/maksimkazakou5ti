@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Przykład: div z tytułem, paragrafem i zdjęciem</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .title-internal {
+      font-family: 'Georgia', serif;
+      font-size: 2rem;
+      color: #1e90ff;
+      margin: 0 0 0.5rem;
+      font-style: italic;
+    }
+
+    #my-paragraph {
+      max-width: 700px;
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #333;
+      background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(245,245,255,0.6));
+      padding: 12px 16px;
+      border-left: 4px solid #7b61ff;
+      border-radius: 8px;
+      box-shadow: 0 6px 18px rgba(30, 30, 60, 0.06);
+      margin: 0 0 1rem;
+    }
+
+    #my-image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      width: 600px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+      border: 6px solid #f0f0f8;
+      margin: 0;
+    }
+
+    .card {
+      background: linear-gradient(180deg, #ffffff, #fafaff);
+      padding: 22px;
+      border-radius: 14px;
+      max-width: 760px;
+      margin: 24px auto;
+      box-shadow: 0 12px 36px rgba(20,20,60,0.06);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    .muted {
+      font-size: 0.85rem;
+      color: #6b6b7a;
+      margin-bottom: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p class="muted">Tytuły: 1 = styl zewnętrzny (style.css), 2 = styl wewnętrzny (&lt;style&gt;), 3 = inline</p>
+
+    <h1 class="title-external">Tytuł — styl zewnętrzny (style.css)</h1>
+
+    <h1 class="title-internal">Tytuł — styl wewnętrzny (&lt;style&gt;)</h1>
+
+    <h1 class="title-inline" style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 2rem; color: #28a745; margin: 0 0 0.5rem;">
+      Tytuł — styl w znaczniku (inline)
+    </h1>
+
+    <p id="my-paragraph">
+      To jest przykładowy paragraf ostylowany przez <code>id="my-paragraph"</code>. Możesz tu wstawić dowolny tekst — opisy, notatki lub dłuższe informacje. Paragraf ma obramowanie, delikatny cień i zaokrąglone rogi, żeby ładnie komponował się ze zdjęciem poniżej.
+    </p>
+
+    <img id="my-image" src="https://zsdios.biuletyn-publiczny.net/media/images/logo.png" alt="Przykładowe zdjęcie z Picsum">
+
+  </div>
+</body>
+</html>
